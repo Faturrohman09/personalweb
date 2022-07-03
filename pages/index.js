@@ -23,7 +23,7 @@ function Home(props){
           </div>
         </div>
       </section> 
-    <Footer />
+    <Footer datafoot={props.data.data[0].footer}/>
     </>
   );
 }
